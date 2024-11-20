@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    background-color: purple;
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    margin-bottom: 30px;
+    font-size: 60px;
+    border-bottom: double 10px white;
+    cursor: pointer;
+}
+
+.Chamada{
+    width: 80%;
+    background-color: rgba(23, 255, 35, 0.603);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Comeco{
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.Comeco > h1{
+    font-size: 60px;
+    color: rgba(0, 0, 139, 0.541);
+}
+
+.Comeco > p{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+#txt-Selecionadas{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(9, 243, 41);
+}
+
+.categoria-músicas-Geek{
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria-músicas-Geek div{
+    margin: 15px;
+}
+
+.categoria-músicas-Geek img{
+    opacity: 0.5;
+    width: 340px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.categoria-músicas-Geek img:hover{
+    opacity: 1.0;
+    border: 10px solid blue;
+}
